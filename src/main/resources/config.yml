@@ -1,0 +1,38 @@
+# GPS Navigation Plugin Configuration
+
+navigation:
+  # The maximum range (in blocks) to search for target entities.
+  range: 50
+  # A list of entity types to target for navigation.
+  # You can find a full list of valid entity types here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+  target-entities:
+    - ZOMBIE
+    - SKELETON
+    - CREEPER
+
+# Display animation settings
+display:
+  # How often to update the display position and rotation (in ticks)
+  # Lower values = smoother but more resource intensive
+  # Higher values = less smooth but better performance
+  update-interval: 3
+
+  # Interpolation duration for smooth animations (in ticks)
+  # This controls how long it takes for the display to smoothly move to new positions
+  interpolation-duration: 10
+
+  # Interpolation delay before animations start (in ticks)
+  interpolation-delay: 0
+
+  # Teleport duration for position changes (in ticks)
+  # 0 = instant teleport, higher values = smoother movement
+  teleport-duration: 5
+
+  # Distance from player where the navigation sword appears
+  display-distance: 2.0
+
+  # View range for the display entity
+  view-range: 64.0
+
+  # Whether to automatically stop navigation when no targets are found
+  auto-stop-when-no-target: false

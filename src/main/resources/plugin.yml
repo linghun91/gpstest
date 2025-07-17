@@ -1,0 +1,8 @@
+name: gpstest
+version: '1.0-SNAPSHOT'
+main: cn.i7mc.gpstest.Gpstest
+api-version: '1.21'
+commands:
+  gps:
+    description: Starts or stops the GPS navigation.
+    usage: /gps <start|stop>

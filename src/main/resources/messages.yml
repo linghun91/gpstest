@@ -1,0 +1,8 @@
+# Messages for the GPS Navigation Plugin
+
+prefix: "&7[&bGPS&7] &r"
+
+navigation-started: "&aNavigation started. Pointing to the nearest target."
+navigation-stopped: "&cNavigation stopped."
+no-target-found: "&eNo valid targets found within range."
+usage: "&cUsage: /gps <start|stop>"
